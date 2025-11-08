@@ -15,66 +15,69 @@
       line-height: 1.6;
       color: #222;
     }
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.6rem;
-    }
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 1.6rem;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .muted {
-      color: #666;
-      font-size: .95rem;
-    }
+    h1 { font-size: 1.8rem; margin-bottom: 0.6rem; }
+    h2 { font-size: 1.2rem; margin-top: 1.6rem; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: #666; font-size: .95rem; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="muted">Effective: October 18, 2025</p>
+  <p class="muted">Effective: November 2025</p>
 
   <h2>1. Information We Collect</h2>
   <ul>
-    <li><strong>Account Information:</strong> If you register, we collect your email and login details.</li>
-    <li><strong>Location Data:</strong> If enabled, Plot stores location data to place entries on the map. This location data is <strong>encrypted on your device before being uploaded</strong>.</li>
-    <li><strong>Post Content (Notes & Text):</strong> The written body of each post is <strong>encrypted locally before it is sent to our servers</strong>, so we cannot read or access it.</li>
-    <li><strong>Photos & Media:</strong> Uploaded photos and media are stored in secure, access-controlled storage. Only you (via your authenticated account) can access your uploaded files.</li>
-    <li><strong>Titles:</strong> Post titles are <strong>not encrypted</strong> to support search and filtering features, but they are transmitted and stored securely.</li>
-    <li><strong>Device Data:</strong> We may collect anonymized analytics (e.g., crashes, usage patterns).</li>
+    <li><strong>Account Information:</strong> When you create an account, we collect your email and authentication details.</li>
+
+    <li><strong>Post Content (Text & Titles):</strong> The text and titles of posts are
+      <strong>encrypted on your device before being uploaded</strong>. We cannot read, view, or access this content.</li>
+
+    <li><strong>Location Coordinates:</strong> Plot stores geographic coordinates to place entries on the map.
+      These coordinates are stored in readable form to support map display and search features, and are protected by your authenticated account.</li>
+
+    <li><strong>Photos & Media:</strong> Photos and media files are <strong>encrypted on your device before upload</strong>
+      and stored in secure, authenticated storage. Only your device can decrypt them.</li>
+
+    <li><strong>Technical & Diagnostic Data:</strong> We may collect anonymized analytics and crash reports to improve performance.
+      This data does not include your encrypted content.</li>
   </ul>
 
-  <h2>2. How We Use Information</h2>
-  <p>We use your data to provide app functionality, improve performance, and manage subscriptions and support requests.</p>
-
-  <h2>3. Data Sharing</h2>
-  <p>We do not sell personal data. Limited sharing occurs with third-party services (e.g., analytics, crash reporting, and payment providers) as needed for app functionality.</p>
-
-  <h2>4. Data Security</h2>
-  <p>We use strong encryption and secure storage methods to protect your information:</p>
+  <h2>2. End-to-End Encryption</h2>
+  <p>
+    Plot uses end-to-end encryption (E2EE) for your written content and media. Your encryption key is derived from a passphrase that only you know.
+    We do not store or have access to this passphrase. As a result:
+  </p>
   <ul>
-    <li>The <strong>body text and location data</strong> of each post are encrypted locally on your device before being uploaded.</li>
-    <li><strong>Photos and media</strong> are stored securely with authenticated access controls, ensuring only you can view or download them.</li>
-    <li><strong>Titles and metadata</strong> (such as timestamps and coordinates) are stored in readable form to enable essential app features like search and map display.</li>
+    <li>We <strong>cannot read your notes, titles, or photos.</strong></li>
+    <li>Your encryption keys are <strong>never sent to our servers</strong>.</li>
+    <li>We cannot decrypt your data, even if requested.</li>
   </ul>
-  <p>While we follow industry best practices, no system can guarantee absolute security.</p>
 
-  <h2>5. Your Choices</h2>
-  <p>You can control location permissions in your device settings. You can request deletion of your account or data anytime by contacting us.</p>
+  <h2>3. Passphrase and Data Recovery</h2>
+  <p>
+    Because we do not know or store your passphrase, we <strong>cannot recover your encrypted data if you forget it</strong>.
+    If your passphrase is lost, your encrypted content may be permanently inaccessible.
+  </p>
 
-  <h2>6. Children’s Privacy</h2>
-  <p>Plot is not directed at children under 13. We do not knowingly collect data from them.</p>
+  <h2>4. How We Use Information</h2>
+  <p>We use collected information to provide core app functionality, maintain secure storage, manage subscriptions, and diagnose performance issues.</p>
 
-  <h2>7. Changes to this Policy</h2>
-  <p>We may update this Privacy Policy. Updates will be posted in the app.</p>
+  <h2>5. Data Sharing</h2>
+  <p>We do not sell or trade personal data. Limited third-party services may be used for crash reporting, analytics, and subscription management.
+     These services do <strong>not</strong> have access to your encrypted content.</p>
 
-  <h2>8. Contact Us</h2>
+  <h2>6. Data Security</h2>
+  <p>We follow modern security practices and use strong, industry-standard cryptography (including AES-256-GCM).
+     However, no system can guarantee absolute protection.</p>
+
+  <h2>7. Children’s Privacy</h2>
+  <p>Plot is not intended for children under 13. We do not knowingly collect data from children.</p>
+
+  <h2>8. Changes to this Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be posted within the app.</p>
+
+  <h2>9. Contact Us</h2>
   <p>Email: <a href="mailto:dpars@hotmail.co.jp">dpars@hotmail.co.jp</a></p>
 </body>
 </html>
